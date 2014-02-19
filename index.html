@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/parallax.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -40,14 +41,28 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </div>
 
-    <!-- TODO: Parralax goes here -->
+    <div class="parralax">
+        <ul id="scene" 
+          data-calibrate-x="false"
+          data-calibrate-y="true"
+          data-invert-x="true"
+          data-invert-y="true"
+          data-limit-x="false"
+          data-limit-y="10"
+          data-scalar-x="10"
+          data-scalar-y="10"
+          data-friction-x="0.2"
+          data-friction-y="0.8"
+        >
+          <li class="layer flappy" data-depth="0.5"><img src="img/flappy.png"></li>
+<!--           <li class="layer sol" data-depth="0"><img src="img/longsol.png"></li>
+ -->        </ul>
+      </div>
 
 
       <hr>

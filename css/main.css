@@ -4,6 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
+.parralax{
+	width: 50px;
+}
+
+.sol{
+margin-top: 0px;
+z-index: 10;
+width: 100%;
+}
+
+.flappy{
+	margin-left: 20%;
+
+	z-index: 999;
+}
+
 
 
 
