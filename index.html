@@ -17,11 +17,13 @@
                 padding-bottom: 20px;
             }
         </style>
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/vendor/parallax.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -46,29 +48,64 @@
       </div>
     </div>
 
-    <div class="parralax">
-        <ul id="scene" 
-          data-calibrate-x="false"
-          data-calibrate-y="true"
-          data-invert-x="true"
-          data-invert-y="true"
-          data-limit-x="false"
-          data-limit-y="10"
-          data-scalar-x="10"
-          data-scalar-y="10"
-          data-friction-x="0.2"
-          data-friction-y="0.8"
-        >
-          <li class="layer flappy" data-depth="0.5"><img src="img/flappy.png"></li>
-<!--           <li class="layer sol" data-depth="0"><img src="img/longsol.png"></li>
- -->        </ul>
+        <!-- Carousel
+    ================================================== -->
+    <div>
+      <!-- Indicators -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/flappybird.jpg" style="margin:auto;" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to Hell</h1>
+
+              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+            </div>
+          </div>
+        </div>
+
+
+      <div class="row featurette flappy_presentation">
+        <div class="col-md-7 flappy_text">
+          <h2 class="featurette-heading">Meet Flappy Bird<br/>a poor bird who is trying to escape from princess Peach</h2>
+          <p class="lead">Poor Flappy's been caged up like a normal bird. Now he's free, help him by getting as far away as you can!</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/flappy_bird.png" alt="Generic placeholder image">
+        </div>
+
+        
+      </div>
+      <div class="row featurette flappy_control">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive tuyau" src="img/tuyau.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7 flappy_text">
+          <h2 class="featurette-heading">One touch to jump<br/>That's all</h2>
+          <p class="lead ">Poor Flappy ate too much! He can't fly...<br/>Touch the screen to jump and avoid the pipe!</p>
+        </div>
+      </div>        
       </div>
 
 
-      <hr>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row flappy_plateform">
+        <div class="col-md-5">
+          <img class="img-circle" width="200px" src="img/App_store.png" alt="Generic placeholder image">
+          <h2>Available for iPhone/iPad</h2>
+          <p><a class="btn btn-default" href="#" role="button">Download &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-5">
+          <img class="img-circle" width="200px" src="img/google-play-logo.png" alt="Generic placeholder image">
+          <h2>Or Android</h2>
+          <p><a class="btn btn-default" href="#" role="button">Download &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
 
       <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; copyright ISEN 2014</p>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>

@@ -4,34 +4,55 @@
    Author's custom styles
    ========================================================================== */
 
-.parralax{
+.active{
+	background-color: #51C8D7;
 }
 
-.sol{
-margin-top: 0px;
-z-index: 10;
-width: 100%;
+.carousel-caption h1{
+			font-family: 'Press Start 2P', cursive;
+			margin-bottom:60px;
+
 }
 
-.flappy{
-	margin-left: 20%;
+.flappy_presentation{
+		background-color: #FF8F62;
 
-	z-index: 999;
+	margin-top:auto;
+	margin-bottom: auto;
+		text-align: center;
+}
+
+.flappy_text{
+	margin-top:8%;
+	margin-bottom: 100px;
+}
+
+.featurette-heading{
+	color: white;
+}
+
+.tuyau{
+	margin-left: 400px;
+	height: 300px;
+}
+
+.flappy_control{
+	background-color: #51C8D7;
+	text-align: center;
 }
 
 
 
+.flappy_plateform{
+	padding-top: 10px;
+	text-align: center;
+	background: url(../img/longsol.png) center top repeat-x;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #DED894;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+	text-align: center;
+}
